@@ -1,0 +1,1923 @@
+:root {
+    --bg-scrn-min:1201px;
+    --bg-scrn-max: 1400px;
+    --below-575: 574px;
+}
+
+/* index */
+
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+
+/* header section */
+
+    .custom-logo img{
+        margin-left: 12px;
+    }
+    .custom-nav-menu li a{
+        padding: 10px 12px;
+    }
+
+/* banner section */
+
+    .custom-home-page-banner-sec-container .custom-title .custom-GBT{
+        font-size: 150px;
+    }
+    .custom-top-banner-inner-sec .custom-banner-left-sec img{
+       top: 35%;
+    }
+    .custom-top-banner-inner-sec .custom-banner-left-sec, .custom-top-banner-inner-sec .custom-banner-right-sec{
+        padding: 0 25px;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-banner-title{
+        font-size: 75px;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-banner-content{
+        font-size: 18px;
+    }
+
+/* about */
+
+    .header-banner-container{
+        padding: 0 7%;
+    }
+    .custom-title-box .custom-AGY {
+        font-size: 35px;
+    }
+    .custom-about-title .custom-para,.custom-about-title .custom-para2{
+        font-size: 18px;
+    }
+    .custom-over .custom-headline{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .custom-over .custom-description{
+        font-size: 18px;
+        text-align: center;
+    }
+    .strong_bong_about{
+        order: 2;
+    }   
+    .strong_bong_about_1{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 45px;
+        margin-bottom: 35px;
+    }
+    .custom-about-image img,
+    .custom-about-image2 img{
+        width: 100%;
+        max-height:400px;
+        object-fit: cover;
+        height: 100%;
+    }
+    .custom-about-image2{
+        margin: 0;
+    }
+
+/* yoga life */
+
+    .custom-yoga-background{
+    padding-top: 60px;
+    }
+    .custom-title-box2 .custom-yoga-life{
+    font-size: 35px;
+    }
+    .custom-title-box2 img{
+    width: 5%;
+    height: 8%;
+    }
+    .custom-yoga-con{
+    width: 80%;
+    }
+    .custom-first-col,.custom-first-col3{
+    width: 37%;
+    margin-left: 70px;
+    }
+    .custom-first-col2{
+    width: 26%;
+    margin-left: 40px;
+    }
+    .custom-yoga-img-box img{
+    width: 86%;
+    }
+    .custom-yoga-box{
+    margin-bottom: 25px;
+    }
+
+/* latest news */
+
+    .custom-title-box-latest .custom-latest-news{
+    font-size: 35px;
+    }
+    .custom-title-box-latest img {
+    width: 5%;
+    height: 8%;
+    }
+    .slick-list{
+    padding: 0px 0px;
+    }
+    .zoom-effect-container{
+    margin: 0;
+    height: 210px;
+    }
+    .date_box_blog{
+    margin-top: -30px;
+    }
+    .date_box_blog p{
+    width: 23%;
+    font-size: 18px;
+    padding-top: 4px;
+    height: 60px;
+    }
+    .blog_con{
+    padding: 10px 5px 15px 5px;
+    }
+    .blog_con h3{
+    line-height: 20px;
+    }
+    .blog_con p{
+    font-size: 13px;
+    }
+    .read_more_blog .fa{
+    margin-left: 2%;
+    }
+
+/* pricing plan */
+    
+    .pricing{
+        padding-top: 40px;
+    }
+    .pricing .custom-title-box h2{
+        font-size: 35px;
+    }
+    .pricing .custom-title-box img{
+        width: 5%;
+        height: 8%;
+    }
+    .price_box ul li{
+        line-height: 10px;
+    }
+    .price h2{
+        font-size: 30px;
+    }
+    .price_btn{
+        margin-top: 10px;
+    }
+
+/* footer */
+
+    .footer_con img{
+        margin-left: 28%;
+    }
+    .footer_social ul li {
+        width: 17%;
+    }
+    .footer_center_con{
+        padding-right: 0%;
+    }
+    .footer_link{
+        padding: 0;
+    }
+    .footer_link li:first-child{
+        padding: 0px 0px 0px 0px;
+    }
+    .footer_link li a{
+        padding: 6px;
+    }
+    .footer_center_con p{
+        letter-spacing: 0;
+    }
+    .news_letter_box h3{
+        font-size: 15px;
+        margin-left: 11%;
+    }
+    input.card-input{
+        width: 98%;
+        line-height: 1.1;
+    }
+    .input-img{
+        width: 17%;
+        height: 100%;
+        right: 1%;
+    }
+    .news_letter_box p {
+       text-align: center;
+       margin-left: 0%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+/* header section */
+
+    .custom-logo img{
+        margin-left: 0px;
+    }
+    .custom-nav-menu li a{
+        padding: 10px 6px;
+    }
+
+/* banner section */
+
+    .custom-home-page-banner-sec-container{
+        height: 90vh;
+    }
+    .custom-home-page-banner-sec-container .custom-title .custom-GBT{
+        font-size: 130px;
+    }
+    .custom-top-banner-inner-sec{
+        height: 90vh;
+    }
+    .custom-top-banner-inner-sec .custom-banner-left-sec img{
+        width: 90%;
+        top: 40%;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-banner-title{
+        font-size: 60px;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-banner-content{
+        font-size: 17px;
+    }
+
+/* about */
+
+    .header-banner-container{
+        padding: 0 7%;
+    }
+    .custom-title-box .custom-AGY {
+        font-size: 30px;
+    }
+    .custom-about-title .custom-para,.custom-about-title .custom-para2{
+        font-size: 16px;
+    }
+    .custom-over .custom-headline{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .custom-over .custom-description{
+        font-size: 16px;
+        text-align: center;
+    }
+    .strong_bong_about{
+        order: 2;
+    }   
+    .strong_bong_about_1{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 45px;
+        margin-bottom: 35px;
+    }
+    .custom-about-image img,
+    .custom-about-image2 img{
+        width: 100%;
+        max-height:400px;
+        object-fit: cover;
+    }
+    .custom-about-image2{
+        margin: 0;
+    }
+
+/* yoga life */
+
+    .custom-yoga-background{
+    padding-top: 50px;
+    }
+    .custom-title-box2 .custom-yoga-life{
+    font-size: 30px;
+    }
+    .custom-title-box2 img{
+    width: 5%;
+    height: 8%;
+    }
+    .custom-yoga-con{
+    width: 80%;
+    }
+    .custom-first-col,.custom-first-col3{
+    width: 37%;
+    margin-right: -20px;
+    }
+    .custom-first-col2{
+    width: 26%;
+    margin-left: 40px;
+    }
+    .custom-yoga-img-box img{
+    width: 86%;
+    }
+    .custom-yoga-box{
+    margin-bottom: 25px;
+    }
+
+/* choose program */
+ 
+    .custom-title-box h2 {
+    font-size: 30px;
+    }
+    .custom-title-box img{
+    width: 5%;
+    height: 8%;
+    }
+    .portfolio_img img{
+    width: 100%;
+    height: 100%;
+    }
+
+/* latest news */
+
+    .custom-title-box-latest .custom-latest-news{
+    font-size: 30px;
+    }
+    .custom-title-box-latest img {
+    width: 5%;
+    height: 8%;
+    }
+    .slick-list{
+    padding: 0px 0px;
+    }
+    .zoom-effect-container{
+    margin: 0;
+    height: 210px;
+    }
+    .date_box_blog{
+    margin-top: -30px;
+    }
+    .date_box_blog p{
+    width: 23%;
+    font-size: 18px;
+    padding-top: 4px;
+    height: 60px;
+    }
+    .blog_con{
+    padding: 10px 5px 15px 5px;
+    }
+    .blog_con h3{
+    line-height: 20px;
+    }
+    .blog_con p{
+    font-size: 13px;
+    }
+    .read_more_blog .fa{
+    margin-left: 2%;
+    }
+
+/* pricing plan */
+
+    .pricing{
+        padding-top: 50px;
+    }
+    .pricing .custom-title-box h2{
+        font-size: 30px;
+    }
+    .pricing .custom-title-box img{
+        width: 5%;
+        height: 8%;
+    }
+    .price_box ul li{
+        line-height: 10px;
+    }
+    .price h2{
+        font-size: 30px;
+    }
+    .price_btn{
+        margin-top: 10px;
+    }
+
+/* footer */
+
+    .footer_con img{
+        margin-left: 28%;
+    }
+    .footer_social ul li {
+        width: 17%;
+    }
+    .footer_center_con{
+        padding-right: 0%;
+    }
+    .footer_link{
+        padding: 0;
+    }
+    .footer_link li:first-child{
+        padding: 0px 0px 0px 0px;
+    }
+    .footer_link li a{
+        padding: 6px;
+    }
+    .footer_center_con p{
+        letter-spacing: 0;
+    }
+    .news_letter_box h3{
+        font-size: 15px;
+        margin-left: 3%;
+    }
+    input.card-input{
+        width: 98%;
+        line-height: 1.1;
+    }
+    .input-img{
+        width: 20%;
+        height: 100%;
+        right: 1%;
+    }
+    .news_letter_box p {
+       text-align: center;
+       margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .strong_bong_about{
+        order: 2;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+/* header section */
+
+    .custom-logo img{
+        margin-left: 0px;
+        width: 50px;
+    }
+    .custom-nav-menu li a{
+        padding: 10px 1px;
+        font-size: 14px;
+    }
+
+/* banner section */
+
+    .custom-home-page-banner-sec-container{
+        height: 70vh;
+    }
+    .custom-home-page-banner-sec-container .custom-title .custom-GBT{
+        font-size: 90px;
+    }
+    .custom-top-banner-inner-sec{
+        height: 70vh;
+    }
+    .custom-top-banner-inner-sec .custom-banner-left-sec img{
+        width: 70%;
+        top: 53%;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-banner-title{
+        font-size: 46px;
+        margin-top: 10%;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-banner-content{
+        font-size: 13px;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-explore-button{
+        min-width: 140px;
+        padding: 12px 10px;
+        font-size: 14px;
+    }
+
+/* about */
+
+    .custom-title-box .custom-AGY {
+    font-size: 28px;
+    }
+    .custom-about-title .custom-para,.custom-about-title .custom-para2{
+        font-size: 15px;
+    }
+    .strong_bong_about_1{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 45px;
+        margin-bottom: 35px;
+    }
+    .custom-about-image img,
+    .custom-about-image2 img{
+        width: 100%;
+        max-height:400px;
+        object-fit: cover;
+    }
+    .custom-about-image2{
+        margin: 0;
+    }
+    .custom-over .custom-headline{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .custom-over .custom-description{
+        font-size: 15px;
+        text-align: center;
+    }
+    .custom-aboutbtn{
+        min-width: 135px;
+        padding: 15px 23px;
+        font-size: 14px;
+    }
+
+/* yoga life */
+
+    .custom-yoga-background{
+    padding-top: 60px;
+    }
+    .custom-title-box2 .custom-yoga-life{
+    font-size: 28px;
+    }
+    .custom-title-box2 img{
+    width: 5%;
+    height: 8%;
+    }
+    .custom-yoga-con,.custom-yoga-con1{
+    width: 80%;
+    }
+    .custom-yoga-con h3,.custom-yoga-con1 h3{
+        font-size: 18px;
+    }
+    .custom-yoga-con p,.custom-yoga-con1 p{
+        line-height: 1.5;
+    }
+    .custom-first-col,.custom-first-col3{
+    width: 40%;
+    margin-right: -20px;
+    }
+    .custom-first-col2{
+    width: 25%;
+    margin-left: 40px;
+    }
+    .custom-yoga-img-box img{
+    width: 80%;
+    }
+    .custom-yoga-box{
+    margin-bottom: 10px;
+    }   
+
+/* choose program */
+ 
+    .custom-title-box h2 {
+    font-size: 28px;
+    }
+    .custom-title-box img{
+    width: 5%;
+    height: 8%;
+    }
+    .gallery_product{
+        text-align: center;
+    }
+
+/* testimonial */
+
+    #testimonial {
+    padding: 15px 0px 15px 0;
+    }
+    #testimonial .slick-slide img {
+    width: 80px !important;
+    height: 80px !important;
+    }
+    #testimonial .slick-slide.slick-current img{
+    width: 95px !important;
+    height: 95px !important;
+    }
+    #testimonial .slick-arrow:first-child {
+        left: -12%;
+    }
+    #testimonial .slick-arrow:last-child{
+        right: -12%;
+    }
+    .slick-next:before, .slick-prev:before{
+        line-height: 2.3;
+    }
+
+/* latest news */
+
+    .custom-title-box-latest{
+        margin-bottom: 25px;
+    }
+    .custom-title-box-latest .custom-latest-news{
+    font-size: 28px;
+    }
+    .custom-title-box-latest img {
+    width: 5%;
+    height: 8%;
+    }
+    .slick-list{
+    padding: 0px 0px;
+    }
+    .zoom-effect-container{
+    margin: 0;
+    height: 160px;
+    }
+    .image-card img{
+    width: 100%;
+    }
+    .date_box_blog{
+    margin-top: -50px;
+    }
+    .date_box_blog p{
+    width: 27%;
+    font-size: 15px;
+    padding-top: 10px;
+    height: 55px;
+    line-height: 16px;
+    }
+    .blog_con{
+    padding: 10px 5px 15px 5px;
+    }
+    .blog_con h3{
+    line-height: 20px;
+    font-size: 16px;
+    }
+    .blog_con p{
+    font-size: 13px;
+    }
+    .read_more_blog .fa{
+    margin-left: 2%;
+    }
+    
+/* pricing plan */
+
+    .pricing_container{
+        max-width: 100%;
+    }
+    .pricing{
+        padding-top: 50px;
+    }
+    .pricing .custom-title-box h2{
+        font-size: 28px;
+    }
+    .pricing .custom-title-box img{
+        width: 5%;
+        height: 8%;
+    }
+    .pricing_sb{
+    width: 30%;
+    }
+    .pricing_img{
+        margin-top: 10px;
+    }
+    .price_box{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .price_box ul{
+        line-height: 1;
+        margin-top: 10px;
+    }
+    .price_box h3{
+        font-size: 20px;
+    }
+    .pricing_img img{
+        width: 35%;
+    }
+    .price_box ul li{
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    .price_border{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .price h2{
+        font-size: 25px;
+    }
+    .price_btn{
+        margin-top: 10px;
+    }
+    .started_btn{
+        padding: 12px 15px;
+    }
+
+/* footer */
+
+    footer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer_con{
+        text-align: center;
+    }
+    .footer_con img{
+        margin-left: 0%;
+    }
+    .footer_social ul li {
+        width: 5%;
+    }
+    .footer_center_con{
+        padding-right: 0%;
+        margin-top: 20px;
+    }
+    .footer_link{
+        padding: 0;
+    }
+    .footer_link li:first-child{
+        padding: 0px 0px 0px 0px;
+    }
+    .footer_link li a{
+        padding: 15px;
+    }
+    .footer_center_con p{
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+    .news_letter_box{
+        margin-top: 20px;
+    }
+    .news_letter_box h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    .card-box-input{
+        margin-left: 31%;
+    }
+    input.card-input{
+        width: 60%;
+        line-height: 1.1;
+    }
+    .input-img{
+        width: 8%;
+        height: 100%;
+        right: 40%;
+    }
+    .news_letter_box p {
+       text-align: center;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+/* header section */
+
+    .custom-logo img{
+        margin-left: -20px;
+        width: 50px;
+    }
+    .nav-list a {
+        color: #eabf47;
+        padding: 10px 1px;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+  
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-black);
+    }
+  
+    .nav-list.show {
+        display: flex;
+    }
+  
+    .nav-list li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+/* banner section */
+
+    .custom-home-page-banner-sec-container{
+        height: 60vh;
+    }
+    .custom-home-page-banner-sec-container .custom-title .custom-GBT{
+        font-size: 70px;
+    }
+    .custom-top-banner-inner-sec{
+        height: 60vh;
+    }
+    .custom-top-banner-inner-sec .custom-banner-left-sec img{
+        width: 70%;
+        top: 58%;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-banner-title{
+        font-size: 30px;
+        margin-top: 15%;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-banner-content{
+        font-size: 13px;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-explore-button {
+        font-size: 14px;
+        min-width: 135px;
+        padding: 10px;
+    }
+
+/* about */
+
+    .custom-about-title .custom-para,.custom-about-title .custom-para2{
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+    .custom-title-box .custom-AGY {
+    font-size: 25px;
+    }
+    .strong_bong_about_1{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 35px;
+        margin-bottom: 30px;
+    }
+    .custom-about-image img,
+    .custom-about-image2 img{
+        width: 100%;
+        max-height:350px;
+        object-fit: cover;
+    }
+    .custom-about-image2{
+        margin: 0;
+    }
+    .custom-about-title .custom-content{
+        font-size: 20px;
+    }
+    .custom-over .custom-headline{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .custom-over .custom-description{
+        font-size: 14px;
+        text-align: center;
+    }
+    .custom-aboutbtn{
+        min-width: 125px;
+        padding: 15px 18px;
+        font-size: 14px;
+    }
+
+/* yoga life */
+
+    .custom-yoga-background{
+    padding-top: 50px;
+    }
+    .custom-title-box2 .custom-yoga-life{
+    font-size: 25px;
+    }
+    .custom-title-box2 img{
+    width: 5%;
+    height: 8%;
+    }
+    .custom-yoga-con, .custom-yoga-con1{
+    width: 80%;
+    }
+    .custom-yoga-con h3,.custom-yoga-con1 h3{
+        font-size: 18px;
+    }
+    .custom-yoga-con p,.custom-yoga-con1 p{
+        line-height: 1.5;
+    }
+    .custom-first-col{
+    width: 50%;
+    margin-left: 20px;
+    }
+    .custom-first-col3{
+        width: 50%;
+        margin-left: 20px;
+    }
+    .custom-first-col2{
+    display: none;
+    }
+    .custom-yoga-img-box img{
+    width: 80%;
+    }
+    .custom-yoga-box{
+    margin-bottom: 10px;
+    } 
+
+ /* choose program */
+ 
+    .custom-title-box h2 {
+    font-size: 25px;
+    }
+    .custom-title-box img{
+    width: 5%;
+    height: 8%;
+    } 
+    .gallery_product{
+        text-align: center;
+    }
+    button.btn.btn-default.filter-button{
+        padding: 3px 15px;
+    }
+          
+/* testimonial */
+
+    #testimonial {
+    padding: 15px 0px 15px 0;
+    }
+    #testimonial .slick-slide img {
+    width: 70px !important;
+    height: 70px !important;
+    }
+    #testimonial .slick-slide.slick-current img{
+    width: 90px !important;
+    height: 90px !important;
+    }
+    #testimonial .testimonials-content p{
+        width: 85%;
+    }
+    #testimonial .slick-arrow:first-child {
+        left: -3%;
+    }
+    #testimonial .slick-arrow:last-child{
+        right: -3%;
+    }
+    .slick-next:before, .slick-prev:before{
+        line-height: 2.3;
+    }
+
+/* latest news */
+
+    .custom-title-box-latest{
+    margin-bottom: 25px;
+    }
+    .custom-title-box-latest .custom-latest-news{
+    font-size: 30px;
+    }
+    .custom-title-box-latest img {
+    width: 5%;
+    height: 8%;
+    }
+    .slick-list{
+    padding: 0px 0px;
+    }
+    .zoom-effect-container{
+    margin: 0;
+    height: 160px;
+    }
+    .image-card img{
+    width: 100%;
+    }
+    .date_box_blog{
+    margin-top: -55%;
+    }
+    .date_box_blog p{
+    width: 35%;
+    font-size: 15px;
+    padding-top: 10px;
+    height: 55px;
+    line-height: 16px;
+    }
+    .blog_con{
+    padding: 10px 5px 15px 5px;
+    }
+    .blog_con h3{
+    line-height: 1;
+    font-size: 16px;
+    }
+    .blog_con p{
+    font-size: 13px;
+    line-height: 1.5;
+    }
+    .read_more_blog .fa{
+    margin-left: 2%;
+    }
+        
+/* pricing plan */
+
+    .pricing{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pricing .custom-title-box h2{
+        font-size: 25px;
+    }
+    .pricing .custom-title-box img{
+        width: 10%;
+        height: 8%;
+    }
+    .pricing_sb{
+    width: 70%;
+    }
+    .price_box ul li{
+        line-height: 10px;
+    }
+    .price h2{
+        font-size: 30px;
+    }
+    .price_btn{
+        margin-top: 10px;
+    }
+
+/* footer */
+
+    footer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer_con{
+        text-align: center;
+    }
+    .footer_con img{
+        margin-left: 0%;
+    }
+    .footer_social ul li {
+        width: 5%;
+    }
+    .footer_center_con{
+        padding-right: 0%;
+    }
+    .footer_link{
+        padding: 0;
+    }
+    .footer_link li:first-child{
+        padding: 0px 0px 0px 0px;
+    }
+    .footer_link li a{
+        padding: 6px;
+    }
+    .footer_center_con{
+        padding-right: 0%;
+        margin-top: 20px;
+    }
+    .footer_center_con p{
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+    .news_letter_box{
+        margin-top: 5%;
+    }
+    .news_letter_box h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    .card-box-input{
+        margin-left: 27%;
+    }
+    input.card-input{
+        width: 70%;
+        line-height: 1.1;
+    }
+    .input-img{
+        width: 11%;
+        height: 100%;
+        right: 30%;
+    }
+    .news_letter_box p {
+       text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+
+/* header section */
+
+    .custom-responsive-wrapper{
+        margin-left: 0px;
+        width: 97%;
+        margin-top: 35px;
+    }
+    .custom-logo img{
+        margin-left: 15px;
+        width: 40px;
+    }
+    .custom-nav-menu li a{
+        padding: 5px 0px;
+        font-size: 14px;
+    }
+    .custom-header-outer {
+        margin-top: 10px;
+    }
+    .nav-list a {
+        color: #eabf47;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+  
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-black);
+    }
+  
+    .nav-list.show {
+        display: flex;
+    }
+  
+    .nav-list li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+/* banner section */
+
+    .custom-home-page-banner-sec-container{
+        height: 50vh;
+    }
+    .custom-home-page-banner-sec-container .custom-title .custom-GBT{
+      display: none;
+    }
+    .custom-top-banner-inner-sec{
+        height: 42vh;
+    }
+    .custom-top-banner-inner-sec .custom-banner-left-sec {
+        display: none;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec{
+      width: auto;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-banner-title{
+       font-size: 20px;
+       text-align: center;
+       margin-top: 35px;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec .custom-banner-content{
+        font-size: 13px;
+        text-align: center;
+    }
+    .custom-top-banner-inner-sec .custom-banner-right-sec a {
+        font-size: 13px;
+        min-width: 140px;
+        padding: 10px;
+    }
+    .custom-home-page-banner-sec-container .custom-background-image{
+        height: 85%;
+    }
+    .custom-home-page-banner-sec-container::before {
+        height: 85%;
+    }
+
+/* about */
+
+    .custom-about-gymfit-yoga{
+        margin-top: 0;
+    }
+    .custom-title-box{
+        margin-bottom: 10px;
+    }
+    .custom-title-box .custom-AGY {
+        font-size: 20px;
+    }
+    .header-banner-container{
+        padding: 0 5%;
+    }
+    .strong_bong_about_1{
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-gap: 35px;
+        width: 85%;
+        margin: 0 auto 30px;
+    }
+    .custom-about-image img,
+    .custom-about-image2 img{
+        width: 100%;
+        max-height:300px;
+        object-fit: cover;
+    }
+    .custom-about-image2{
+        margin: 0;
+    }
+    .custom-over .custom-headline{
+        font-size: 20px;
+        text-align: center;
+    }
+    .custom-over .custom-description{
+        font-size: 14px;
+        text-align: center;
+    }
+    .custom-about-title .custom-content {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .custom-about-title .custom-para,.custom-about-title .custom-para2  {
+        letter-spacing: 0;
+        line-height: 1.5;
+    }
+    .custom-aboutbtn{
+        min-width: 135px;
+        padding: 13px 15px;
+        margin: 5px 0 5px 0;
+    }
+
+/* yoga life */
+
+    .custom-yoga-background{
+        padding-top: 50px;
+    }
+    .custom-title-box2 .custom-yoga-life{
+        font-size: 20px;
+    }
+    .custom-title-box2 img{
+    width: 10%;
+    height: 8%;
+    }
+    .custom-yoga-con, .custom-yoga-con1{
+        width: 80%;
+    }
+    .custom-yoga-con h3,.custom-yoga-con1 h3{
+        font-size: 18px;
+    }
+    .custom-yoga-con p,.custom-yoga-con1 p{
+        line-height: 1.5;
+    }
+    .custom-first-col{
+        width: 50%;
+        margin-left: 20px;
+    }
+    .custom-first-col3{
+        width: 50%;
+        margin-left: 20px;
+    }
+    .custom-first-col2{
+        display: none;
+    }
+    .custom-yoga-img-box img{
+        width: 80%;
+    }
+    .custom-yoga-box{
+        margin-bottom: 10px;
+    } 
+
+ /* choose program */
+ 
+    .custom-title-box h2 {
+    font-size: 20px;
+    }
+    .custom-title-box img{
+    width: 10%;
+    height: 8%;
+    } 
+    button.btn.btn-default.filter-button{
+        letter-spacing: 0;
+        padding: 3px 5px;
+    }
+    .gallery_product{
+        text-align: center;
+    }
+    .portfolio_img img {
+        width: 100%;
+    }
+
+/* testimonial */
+
+    #testimonial {
+    padding: 15px 0px 15px 0;
+    }
+    #testimonial .slick-slide img {
+    width: 60px !important;
+    height: 60px !important;
+    }
+    #testimonial .slick-slide.slick-current img{
+    width: 80px !important;
+    height: 80px !important;
+    }
+    #testimonial .testimonials-content p{
+        width: 80%;
+    }
+    #testimonial .slick-arrow:first-child {
+        left: -2%;
+        width: 12%;
+        height: 8%;
+    }
+    #testimonial .slick-arrow:last-child{
+        right: -2%;
+        width: 12%;
+        height: 8%;
+    }
+    .slick-next:before, .slick-prev:before{
+        line-height: 2;
+        font-size: 16px;
+    }
+    
+/* latest news */
+
+.custom-title-box-latest{
+    margin-bottom: 25px;
+    }
+    .custom-title-box-latest .custom-latest-news{
+    font-size: 30px;
+    }
+    .custom-title-box-latest img {
+    width: 5%;
+    height: 8%;
+    }
+    .slick-list{
+    padding: 0px 0px;
+    }
+    .zoom-effect-container{
+    margin: 0;
+    height: 55px;
+    }
+    .image-card img{
+    width: 100%;
+    }
+    .date_box_blog{
+    display: none;
+    }
+    .blog_con{
+    padding: 10px 5px 15px 5px;
+    }
+    .blog_con h3{
+    font-size: 14px;
+    }
+    .blog_con p{
+    font-size: 13px;
+    line-height: 1;
+    }
+    .read_more_blog .fa{
+    margin-left: 2%;
+    }
+    .blog_btn{
+        padding: 0px 0px;
+    }
+
+/* pricing plan */
+
+.pricing{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pricing .custom-title-box h2{
+    font-size: 20px;
+}
+.pricing .custom-title-box img{
+    width: 10%;
+    height: 8%;
+}
+.pricing_sb{
+width: 90%;
+}
+.price_box ul li{
+    line-height: 1.5;
+    font-size: 14px;
+}
+.price h2{
+    font-size: 25px;
+}
+.price_btn{
+    margin-top: 10px;
+}
+.pricing_img{
+    margin-top: 10px;
+}
+.price_box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.price_box ul{
+    line-height: 1;
+    margin-top: 10px;
+}
+.price_box h3{
+    font-size: 20px;
+}
+.pricing_img img{
+    width: 35%;
+}
+.price_border{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.started_btn{
+    padding: 12px 15px;
+}
+
+
+/* footer */
+
+footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer_con{
+    text-align: center;
+}
+.footer_con img{
+    margin-left: 0%;
+}
+.footer_social ul li {
+    width: 5%;
+}
+.footer_center_con{
+    padding-right: 0%;
+}
+.footer_link{
+    padding: 0;
+}
+.footer_link li:first-child{
+    padding: 0px 0px 0px 0px;
+}
+.footer_link li a{
+    padding: 0;
+}
+.footer_center_con{
+    padding-right: 0%;
+    margin-top: 20px;
+}
+.footer_center_con p{
+    letter-spacing: 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.news_letter_box{
+    margin-top: 5%;
+}
+.news_letter_box h3{
+    font-size: 14px;
+    text-align: center;
+}
+.card-box-input{
+    margin-left: 27%;
+}
+input.card-input{
+    width: 85%;
+}
+.input-img{
+    width: 18%;
+    height: 100%;
+    right: 15%;
+}
+.news_letter_box p {
+   text-align: center;
+}
+
+/* footer bottom */
+
+.custom-copy-right .custom-strong-bong{
+    font-size: 14px;
+}
+
+}
+
+/* programs */
+
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+
+/* program banner section */
+
+    .custom-pro-page-banner-sec-container .custom-title-pro .custom-pro{
+        font-size: 160px;
+        line-height: 0;
+        opacity: 0.7;
+    }
+    .custom-pro-page-banner-sec-container .custom-overlay-pro-banner{
+        top: 43%;
+    }
+    .custom-pro-top-banner-inner-sec .custom-pro-banner-title{
+        font-size: 125px;
+    }
+    .custom-pro-top-banner-inner-sec{
+        bottom: 33%;
+    }
+    .custom-pro-page-banner-sec-container{
+        height: 80vh;
+    }
+        
+/* programs */
+
+    .Full_program{
+        margin-top: 20px;
+    }
+    .heading-group .heading-primary{
+        font-size: 28px;
+    }
+    .heading-group a{
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .img_workout img{
+        object-fit: cover;
+        height: 140px;
+    }
+    .img_workout h2 {
+        font-size: 20px;
+    }
+    .img_workout p{   
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+/* program banner section */
+
+    .custom-pro-page-banner-sec-container .custom-title-pro .custom-pro{
+        font-size: 130px;
+        line-height: 0;
+        opacity: 0.7;
+    }
+    .custom-pro-page-banner-sec-container .custom-overlay-pro-banner{
+        top: 43%;
+    }
+    .custom-pro-top-banner-inner-sec .custom-pro-banner-title{
+        font-size: 105px;
+    }
+    .custom-pro-top-banner-inner-sec{
+        bottom: 28%;
+    }
+    .custom-pro-page-banner-sec-container{
+        height: 70vh;
+    }
+        
+/* programs */
+
+    .Full_program{
+        margin-top: 20px;
+    }
+    .heading-group .heading-primary{
+        font-size: 28px;
+    }
+    .heading-group a{
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .img_workout img{
+        object-fit: cover;
+        height: 140px;
+    }
+    .img_workout h2 {
+        font-size: 20px;
+    }
+    .img_workout p{   
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+
+/* program banner section */
+
+    .custom-pro-page-banner-sec-container .custom-title-pro .custom-pro{
+        font-size: 90px;
+        line-height: 0;
+        opacity: 0.7;
+    }
+    .custom-pro-page-banner-sec-container .custom-overlay-pro-banner{
+        top: 53%;
+    }
+    .custom-pro-top-banner-inner-sec .custom-pro-banner-title{
+        font-size: 75px;
+    }
+    .custom-pro-top-banner-inner-sec{
+        bottom: 23%;
+    }
+    .custom-pro-page-banner-sec-container{
+        height: 60vh;
+    }
+        
+/* programs */
+
+    .Full_program{
+        margin-top: 20px;
+    }
+    .index-gallery{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 45px;
+        margin-bottom: 35px;
+    }
+    .heading-group .heading-primary{
+        font-size: 25px;
+    }
+    .heading-group a{
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    .img_workout{
+        width: 100%;
+    }
+    .img_workout h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .img_workout p{
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    
+/* program banner section */
+
+    .custom-pro-page-banner-sec-container .custom-title-pro .custom-pro{
+        font-size: 70px;
+        line-height: 0;
+        opacity: 0.7;
+    }
+    .custom-pro-page-banner-sec-container .custom-overlay-pro-banner{
+        top: 53%;
+    }
+    .custom-pro-top-banner-inner-sec .custom-pro-banner-title{
+        font-size: 55px;
+    }
+    .custom-pro-top-banner-inner-sec{
+        bottom: 25%;
+    }
+    .custom-pro-page-banner-sec-container{
+        height: 50vh;
+    }
+        
+/* programs */
+
+    .Full_program{
+        margin-top: 20px;
+    }
+    .index-gallery{
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-gap: 45px;
+        margin-bottom: 35px;
+    }
+    .heading-group .heading-primary{
+        font-size: 23px;
+    }
+    .heading-group a{
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+    .img_workout{
+        width: 100%;
+    }
+    .img_workout h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+    .img_workout p{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+
+/* program banner section */
+
+    .custom-pro-page-banner-sec-container .custom-title-pro .custom-pro{
+        font-size: 50px;
+        line-height: 0;
+        opacity: 0.7;
+    }
+    .custom-pro-page-banner-sec-container .custom-overlay-pro-banner{
+        top: 53%;
+    }
+    .custom-pro-top-banner-inner-sec .custom-pro-banner-title{
+        font-size: 40px;
+    }
+    .custom-pro-top-banner-inner-sec{
+        bottom: 25%;
+    }
+    .custom-pro-page-banner-sec-container{
+        height: 40vh;
+    }
+        
+/* programs */
+
+    .Full_program{
+        margin-top: 20px;
+    }
+    .heading-group .heading-primary{
+        font-size: 20px;
+    }
+    .heading-group a{
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+    .index-gallery{
+       display: grid;
+    }
+    .img_workout{
+        width: 100%;
+    }
+    .img_workout h2 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .img_workout p{
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+/* meal plan */
+
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+
+/* meal banner section */
+
+    .custom-meal-top-banner-inner-sec .custom-pro-banner-title{
+        font-size: 130px;
+    }
+    .custom-meal-top-banner-inner-sec{
+        bottom: 30%;
+    }
+    .custom-title-Meal .custom-meal{
+        font-size: 170px;
+        opacity: 0.7;
+        line-height: 0;
+    }   
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+/* meal banner section */
+
+    .custom-meal-top-banner-inner-sec .custom-pro-banner-title{
+        font-size: 100px;
+    }
+    .custom-meal-top-banner-inner-sec{
+        bottom: 28%;
+    }
+    .custom-title-Meal .custom-meal{
+        font-size: 140px;
+        opacity: 0.7;
+        line-height: 0;
+    }   
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+
+/* meal banner section */
+
+    .custom-meal-top-banner-inner-sec .custom-pro-banner-title{
+        font-size: 80px;
+    }
+    .custom-meal-top-banner-inner-sec{
+        bottom: 22%;
+    }
+    .custom-title-Meal .custom-meal{
+        font-size: 110px;
+        opacity: 0.7;
+        line-height: 0;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+
+/* meal banner section */
+
+    .custom-meal-top-banner-inner-sec .custom-pro-banner-title{
+        font-size: 50px;
+    }
+    .custom-meal-top-banner-inner-sec{
+        bottom: 26%;
+    }
+    .custom-title-Meal .custom-meal{
+        font-size: 69px;
+        opacity: 0.7;
+        line-height: 0;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+
+/* meal banner section */
+
+    .custom-meal-top-banner-inner-sec .custom-pro-banner-title{
+        font-size: 35px;
+    }
+    .custom-meal-top-banner-inner-sec{
+        bottom: 28%;
+    }
+    .custom-title-Meal .custom-meal{
+        font-size: 49px;
+        opacity: 0.7;
+        line-height: 0;
+    }
+}
+
+/* corporate */
+
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+
+/* corporate banner section */
+
+    .custom-title-corporate .custom-corpo{
+        font-size: 160px;
+        line-height: 0;
+        opacity: 0.7;
+    }
+
+/* corporate */
+
+    .img_cor img{
+        height: 100%;
+    }
+    .con_cor{
+        height: 100%;
+    }
+    .con_cor h2{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .con_cor p{
+        font-size: 19px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+/* corporate banner section */
+
+    .custom-title-corporate .custom-corpo{
+        font-size: 130px;
+        line-height: 0;
+        opacity: 0.7;
+    }
+
+/* corporate */
+
+    .img_cor img{
+        height: 100%;
+    }
+    .con_cor{
+        height: 100%;
+    }
+    .con_cor h2{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .con_cor p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+
+/* corporate banner section */
+
+    .custom-title-corporate .custom-corpo{
+        font-size: 100px;
+        line-height: 0;
+        opacity: 0.7;
+    }
+
+/* corporate */
+
+    .img_cor img{
+        height: 100%;
+    }
+    .con_cor{
+        height: 100%;
+    }
+    .con_cor h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .con_cor p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+
+/* corporate banner section */
+
+    .custom-title-corporate .custom-corpo{
+        font-size: 70px;
+        line-height: 0;
+        opacity: 0.7;
+    }
+
+/* corporate */
+
+    .img_cor{
+        margin-bottom: 20px;
+    }
+    .img_cor img{
+        height: 100%;
+    }
+    .con_cor{
+        height: 100%;
+    }
+    .con_cor h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .con_cor p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 575px){
+
+/* corporate banner section */
+
+    .custom-title-corporate .custom-corpo{
+        font-size: 50px;
+        line-height: 0;
+        opacity: 0.7;
+    }
+
+/* corporate */
+
+    .img_cor{
+        margin-bottom: 20px;
+    }
+    .img_cor img{
+        height: 100%;
+    }
+    .con_cor{
+        height: 100%;
+    }
+    .con_cor h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .con_cor p{
+        font-size: 15px;
+    }
+}
